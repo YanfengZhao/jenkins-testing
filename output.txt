@@ -1,0 +1,15 @@
+test_t6 (ExperimentTest.MyTestCase) ... ok
+test_t7 (ExperimentTest.MyTestCase) ... ok
+
+----------------------------------------------------------------------
+XML: /Users/yzhao/Documents/Fall 2014/Advanced Programming Tools/APTLabs/jenkins-testing/nosetests.xml
+Name             Stmts   Miss  Cover   Missing
+----------------------------------------------
+Experiment           9      0   100%   
+ExperimentTest      10      1    90%   13
+----------------------------------------------
+TOTAL               19      1    95%   
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK
