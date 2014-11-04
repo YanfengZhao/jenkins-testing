@@ -8,19 +8,19 @@ class MyTestCase(unittest.TestCase):
     self.assertEqual(r1, 1)
 
   def test_t2(self):
-    r1 = Experiment.largest([3,2,1]) 
+    r1 = Experiment.largest([0,2,1]) 
     self.assertEqual(r1, 3)
 
   def test_t3(self):
-    r1 = Experiment.largest([3,2,3]) 
+    r1 = Experiment.largest([9,2,3]) 
     self.assertEqual(r1, 3)
 
   def test_t4(self):
-    r1 = Experiment.largest([3,2,3,4]) 
+    r1 = Experiment.largest([5,2,3,4]) 
     self.assertEqual(r1, 4)
 
   def test_t5(self):
-    r1 = Experiment.largest([3,-2,3,-1,4]) 
+    r1 = Experiment.largest([1,-2,3,-1,4]) 
     self.assertEqual(r1, 4)
 
   def test_t6(self):
